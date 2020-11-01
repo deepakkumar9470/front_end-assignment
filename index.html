@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/font-awesome-icons.css">
+    
+   
+    
+    <title>Registration Form</title>
+    
+</head>
+<body>
+<!--******** Side Navigation Bar *********-->
+ <div class="nav-bar" id="main-nav">
+      <span class="slide">
+          <a href="#" onclick="openSideMenu()">
+              <img src="Images/hamburger-icon.png" alt="Nav Icon">
+          </a>
+          
+      </span>
+      <div class="nav" id="menu">
+          <a href="javascript:void(0)" class="close" onclick="closeSideMenu()">
+              <img src="Images/close-btn.png" alt="Nav Close">
+          </a>
+         <div class="nav-inner">
+          <a href="#">Login</a>
+          <a href="#">Register</a>
+          <a href="#">Home</a>
+          <a href="#">Contact</a>
+          <a href="#">About</a>
+        </div>
+          
+      </div>
+</div>
+<!--******** Side Navigation Bar End*********-->
+
+<!--******** Main Section Start *********-->
+ <div class="container" id="main">
+     
+     <div class="image">
+         <img src="Images/greeting-img.png" alt="Happy Dipawali">
+     </div>
+      
+       <form action="#" method="post" class="register-box" onsubmit="return validation()">
+           <div class="registration-box">
+               <div class="form-data">
+                   <h2>Registration Info</h2>
+                   
+                   <div class="box">
+                       <label for="name">Name</label>
+                       <input type="text" name="name" id="name" autocomplete="off">
+                       <span id="myname"></span>
+                   </div>
+                   <div class="box">
+                       <label for="name">Email</label>
+                       <input type="text" name="email" id="email" autocomplete="off">
+                       <span id="myemail"></span>
+                   </div>
+                   <div class="box">
+                       <label for="name">Phone</label>
+                       <input type="text" name="phone" id="phone" autocomplete="off">
+                       <span id="myphone"></span>
+                   </div>
+                   <div class="box">
+                       <label for="name">BirthDate</label>
+                       <input type="date" name="birthdate" id="birthdate">
+                       <span></span>
+                   </div>
+                   <div class="box">
+                       <label for="name">Gender</label>
+                       <select id="gender" name="gender">
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                          <option value="other">Other</option>
+                
+                        </select>
+                       <span></span>
+                   </div>
+                   <div class="box">
+                       <label for="name">Password</label>
+                       <input type="text" name="password" id="password" autocomplete="off">
+                       <span id="mypass"></span>
+                   </div>
+                   <div class="box">
+                       <label for="name">Confirm Password</label>
+                       <input type="text" name="conf_password" id="conf_password" autocomplete="off">
+                       <span id="myconfpass"></span>
+                   </div>
+                    <div class="box">
+                       <img src="Images/diya.png" class="diya-img">
+                       <input class="mybtn" type="submit" name="submit" value="SUBMIT">
+                        
+                   </div>
+               </div>   
+           </div>
+       </form>
+     
+     
+     
+ </div>
+<!--******** Main Section Start End *********-->         
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="Js/info.js"></script>
+    <script src="Js/font-awesome-icons.js"></script>
+  
+   
+ 
+    
+</body>
+</html>
